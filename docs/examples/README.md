@@ -13,3 +13,4 @@
 - [CRS and Image Overlay](crs-and-image-overlay.md)
 - [Custom Marker Icons](custom-icons.md)
 - [Feature Group](feature-group.md)
+- [Mapbox Vector Tile layer](mapbox-vector-tile-layer.md)

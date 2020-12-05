@@ -14,6 +14,7 @@ export { default as PolylineMixin } from './mixins/Polyline';
 export { default as PopperMixin } from './mixins/Popper';
 export { default as TileLayerMixin } from './mixins/TileLayer';
 export { default as TileLayerWMSMixin } from './mixins/TileLayerWMS';
+export { default as MapboxVectorTileLayerMixin } from './mixins/MapboxVectorTileLayer';
 
 export { default as LCircle } from './components/LCircle';
 export { default as LCircleMarker } from './components/LCircleMarker';
@@ -38,3 +39,4 @@ export { default as LRectangle } from './components/LRectangle';
 export { default as LTileLayer } from './components/LTileLayer';
 export { default as LTooltip } from './components/LTooltip';
 export { default as LWMSTileLayer } from './components/LWMSTileLayer';
+export { default as LMapboxVectorTileLayer } from './components/LMapboxVectorTileLayer';

@@ -97,13 +97,13 @@ export default {
 
 ## Events
 
-| Event name    | Type          | Description                          |
-| ------------- | ------------- | ------------------------------------ |
-| leaflet:load  |               | DEPRECATED event                     |
-| ready         | object        | Triggers when the component is ready |
-| update:zoom   | number,string | Triggers when zoom is updated        |
-| update:center | object,array  | Triggers when center is updated      |
-| update:bounds | object        | Triggers when bounds are updated     |
+| Event name    | Properties                                               | Description                          |
+| ------------- | -------------------------------------------------------- | ------------------------------------ |
+| leaflet:load  |                                                          | DEPRECATED event                     |
+| ready         | **mapObject** `object` - reference to leaflet map object | Triggers when the component is ready |
+| update:zoom   |                                                          | Triggers when zoom is updated        |
+| update:center |                                                          | Triggers when center is updated      |
+| update:bounds |                                                          | Triggers when bounds are updated     |
 
 ## Slots
 

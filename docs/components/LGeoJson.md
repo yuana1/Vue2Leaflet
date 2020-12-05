@@ -54,12 +54,12 @@ export default {
 | layerType    |                                                      | string        | -      | undefined     |
 | visible      |                                                      | boolean       | -      | true          |
 | options      | Leaflet options to pass to the component constructor | object        | -      | {}            |
-| geojson      |                                                      | object\|array | -      | {}            |
+| geojson      |                                                      | object\|array | -      | () => ({})    |
 | optionsStyle |                                                      | object\|func  | -      | null          |
 
 ## Events
 
-| Event name     | Type    | Description                                        |
-| -------------- | ------- | -------------------------------------------------- |
-| update:visible | boolean | Triggers when the visible prop needs to be updated |
-| ready          | object  | Triggers when the component is ready               |
+| Event name     | Properties                                               | Description                                        |
+| -------------- | -------------------------------------------------------- | -------------------------------------------------- |
+| update:visible | **value** `boolean` - value of the visible property      | Triggers when the visible prop needs to be updated |
+| ready          | **mapObject** `object` - reference to leaflet map object | Triggers when the component is ready               |

@@ -57,9 +57,9 @@ export default {
 
 ## Events
 
-| Event name | Type   | Description                          |
-| ---------- | ------ | ------------------------------------ |
-| ready      | object | Triggers when the component is ready |
+| Event name | Properties                                               | Description                          |
+| ---------- | -------------------------------------------------------- | ------------------------------------ |
+| ready      | **mapObject** `object` - reference to leaflet map object | Triggers when the component is ready |
 
 ## Slots
 
